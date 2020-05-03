@@ -10,9 +10,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         final int PORT = 3000;
         final String IP = "localhost";
-
-        // Creating new Comms instance and
-        // setting compile enum to Client
+        
         Comms comms = new Comms();
         comms.compile = Compile.CLIENT;
 
